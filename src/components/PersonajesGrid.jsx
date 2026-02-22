@@ -8,7 +8,7 @@ export const PersonajesGrid = ({items,isLoading}) => {
   ) : (
     <section className="cards">
       {items.map((item) => {
-        return <PersonajeItem key={item.chard_id} item={item} />
+        return <PersonajeItem key={item.char_id} item={item} />
       })}
     </section>
   )
